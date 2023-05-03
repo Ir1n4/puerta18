@@ -1,0 +1,74 @@
+
+
+.test-color {
+color: #34e109c7;
+font-size: 27px;
+font-family: fantasy;
+}
+
+#asd {
+    color: rgb(169, 187, 52);
+}
+
+.clase {
+    color: red;
+}
+
+#arturo {
+width: 20rem;
+}
+
+.menu {
+padding: 20px;
+border: 10px solid orange;
+text-align: center;
+margin: 3px 5px 10px 4px;
+flex-direction: row;
+}
+
+span {
+font-size: 45;
+background-color: aqua;
+}
+
+body {
+background-color: rgba(90, 145, 145, 0.544);
+/* background-image: url('/img/florcita.jpg'); */
+
+}
+
+* {
+font-family: 'Simonetta', cursive;
+}
+
+@media (min-width: 576px) and (orientation: landscape) {
+h1 { color: red;}
+}
+
+@media (min-width: 1000px) and (max-width: 1480px) {
+    h1 { margin: 10%;}
+    }
+
+@media (min-width: 600px) and (orientation: portrait) {
+h1 { color: green;}
+}    
+
+section img {
+float: left;
+margin: 15px;
+}
+
+.texto1 {
+clear:right;
+}
+
+.padre {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
+}
+
+.btn1 {
+flex:auto;
+}
